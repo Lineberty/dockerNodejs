@@ -12,7 +12,8 @@ RUN \
 # Install Node.js
 RUN \
   cd /tmp && \
-  wget http://nodejs.org/dist/node-latest.tar.gz && \
+  wget http://nodejs.org/dist/v0.12.0/node-v0.12.0.tar.gz && \
+  mv node-v0.12.0.tar.gz node-latest.tar.gz && \
   tar xvzf node-latest.tar.gz && \
   rm -f node-latest.tar.gz && \
   cd node-v* && \
