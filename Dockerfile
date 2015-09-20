@@ -1,5 +1,5 @@
 # Pull base image.
-FROM dockerfile/ubuntu
+FROM  quay.io/nitrous/ubuntu
 
 MAINTAINER Lineberty <contact@lineberty.com>
 
